@@ -70,3 +70,31 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn) //true similar with 0 false
 //with empty string false and with string having something true
 */
+
+/*
+//Day 5(Operations && conversions)
+console.log(2**3) // 2 power 3
+let str1 = "raja"
+let str2 = " ram"
+let str3 =str1+str2
+console.log(str3) // raja ram
+
+console.log("1" + 2) //12
+console.log("1"+2+2) //122
+console.log(1+2+"2") //32 read documentations
+
+console.log(+true) //1
+//cosole.log(true+) error
+
+//++num num++
+
+//comparison
+console.log("2">1 ) //true js convert "2" to number
+
+console.log(null>0) //false
+console.log(null==0) //false
+console.log(null>=0) //true 
+
+// == ===(checks data type also)
+
+*/
