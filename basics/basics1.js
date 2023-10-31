@@ -98,3 +98,33 @@ console.log(null>=0) //true
 // == ===(checks data type also)
 
 */
+/*
+datatype interview prep
+\\ primitive(call by value) => 7 types => nnbbus
+\\ refrence types => Arrays, Objects, Functions
+\\ JS is dynamically typed
+\\ symbol declaration =>
+* const id= Symbol('123') const Aid= Symbol('123') console.log(id==Aid)//false*
+\\ BigInt const bigno=123454567n
+
+\\objects => key value pairs let myObj ={
+    name:"raja",
+    age:22,
+}
+
+//functions => const myFunction=function(){
+    console.log("hello world")
+}
+
+Type	      typeof return value	
+Null	      "object"	
+Undefined	  "undefined"	
+Boolean	      "boolean"	
+Number	      "number"	
+BigInt	      "bigint"	
+String	      "string"	
+Symbol	      "symbol"
+
+non-primitive object
+functions     object-function
+*/
