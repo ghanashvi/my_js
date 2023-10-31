@@ -24,21 +24,49 @@ console.table([accountId, accountEmail, accountPassword]) //console method to pr
 /*
 there are 7 datatype in js
 //primitive datatype
- 1. numbers => 2^53
- 2. bigint
- 3. string => "" ``
- 4. boolean => true/false
- 5. null => standalone value / can be assigned as value
- 6. undefined =>
+ 1. Numbers => 2^53
+ 2. BigInt
+ 3. String => "" ``
+ 4. Boolean => true/false
+ 5. Null => standalone value / can be assigned as value
+ 6. UnDefined =>
  7. symbols =>unique 
 
  // Non primitive
  object
  */
-console.log(typeof accountId) // tells the type of variable
+console.log(typeof(accountId)) // tells the type of variable
 // undefined is type whereas type of null is object
 console.log(typeof undefined) //undefined
 console.log(typeof null) //object
 
+/*
 // Day 4(datatype conversion)
+let score ="33"
+console.log(typeof(score))
+console.log(typeof score)
 
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber) //number
+console.log(valueInNumber) //33
+
+let sc="33abc"
+let valueInN = Number(sc)
+console.log(typeof valueInN) //number
+console.log(valueInN) //NaN
+
+let scr=null
+let valueInNo = Number(scr)
+console.log(typeof valueInNo) //number
+console.log(valueInN) //0
+
+let scor=undefined
+let valueInNum = Number(scor)
+console.log(typeof valueInNum) //number
+console.log(valueInN) //undefined
+
+let isLoggedIn=1
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn) //true similar with 0 false
+//with empty string false and with string having something true
+*/
