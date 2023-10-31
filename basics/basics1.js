@@ -128,3 +128,25 @@ Symbol	      "symbol"
 non-primitive object
 functions     object-function
 */
+/*
+//Day 7(Stack and Heap memory)
+Stack memory(primitive value) {
+    let name =raja
+    let Aname=name
+    Aname=paras
+    console.log(name) //raja
+    console.log(Aname) //paras
+}
+
+Heap(non primitive){
+let user1={
+    email: "r@gmail.com",
+    upi : "r@ubi",
+}
+let userTwo=user1
+userTwo.email="p@gmail.com"
+console.log(user1.email) //p@gmail.com
+console.log(userTwo.email) //p@gmail.com
+}
+
+*/
