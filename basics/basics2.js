@@ -39,7 +39,43 @@ console.log(Math.random) //always give value from 0-1
 console.log((Math.random()*10)+1)
 const min=10
 const max=20
-console.log(Math.floor(Math.random()+(max-min+1))+min) //imp formula
+console.log(Math.floor(Math.random()*(max-min+1))+min) //imp formula
 
-//*************** Date and Time***********
+//*************** Dates and Time***********
+let myDate = new Date() //typeOf --> object
+console.log(myDate)
+console.log(myDate.toString())
+console.log(myDate.toLocaleString())
+console.log(myDate.toDateString())
+
+//arbitary date
+let myCreatedDate=new Date(2023, 0, 23) //month start from 0 in js
+console.log(myCreatedDate.toString()) //Mon Jan 23 2023 00:00:00 GMT+0000 (Coordinated Universal Time)
+
+let myCreated=new Date("01-14-2023")
+console.log(myCreated.toLocaleString());
+
+//Time Stamp
+let myTimeStamp=Date.now()
+console.log(myTimeStamp);
+console.log(myCreated.getTime()) //value in milli second
+
+//convert to second
+console.log(Math.floor(Date.now()/1000))
+
+//there are different methods to find day month and many more
+let newDate=new Date()
+console.log(newDate.getMonth()+1);
+console.log(newDate.getDay());
+
+// costumize formate(learn more)
+newDate.toLocaleString('default',{
+    weekday
+})
+
+
+
+
+
+
 
