@@ -44,9 +44,9 @@ let array2=array.flat(Infinity)
 console.log(array2)
 
 console.log(Array.isArray("Ram")) //check array
-console.log(Array.From("Ram")) //convert to array
+console.log(Array.from("Ram")) //convert to array
 
-console.log(Array.From({name: "raja"})) //intr q--> returns empty array y--> we have to define wheter to make array from keys or value
+console.log(Array.from({name: "raja"})) //intr q--> returns empty array y--> we have to define wheter to make array from keys or value
 
 let scr1=12
 let scr2=13
