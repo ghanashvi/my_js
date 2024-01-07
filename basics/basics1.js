@@ -2,7 +2,7 @@
 
 // alert(3+3) // error, as we are using nodejs, not browser
 
-//day 1
+//day 0
 console.log("Hello")
 
 //day2(variables)
